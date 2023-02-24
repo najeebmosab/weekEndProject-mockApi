@@ -1,0 +1,107 @@
+.d-none{
+    display: none !important;
+}
+.mockDataContainer {
+    width: 80%;
+    height: fit-content;
+    margin: 10px auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mockDataContainer .addProduct {
+
+    width: 100%;
+    overflow: auto;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.mockDataContainer .addProduct button {
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #fff;
+}
+
+.mockDataContainer .addProduct button:hover {
+    box-shadow: #28a745 0px 0px 5px 2px;
+}
+
+
+
+.eventing button {
+    margin: 0px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.eventing button:nth-child(1){
+    background-color: #ffc107;
+    color: #fff;
+    
+}
+.eventing button:nth-child(1):hover{
+    box-shadow: #ffc107 0px 0px 5px 2px;
+}
+
+.eventing button:nth-child(2){
+    background-color: #17a2b8;
+    color: #fff;
+    
+}
+.eventing button:nth-child(2):hover{
+    box-shadow: #17a2b8 0px 0px 5px 2px;
+}
+
+.eventing button:nth-child(3){
+    background-color: #dc3545;
+    color: #fff;
+    
+}
+.eventing button:nth-child(3):hover{
+    box-shadow: #dc3545 0px 0px 5px 2px;
+}
+
+
+
+
+
+.mockDataContainer .card:nth-child(even) {
+    background-color: #ccc;
+}
+
+.mockDataContainer .card:nth-child(ood) {
+    background-color: #fff;
+}
+
+.mockDataContainer .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.mockDataContainer .card img {
+    width: 20%;
+}
+
+
+@media (max-width:500px) {
+    .mockDataContainer .card {
+       flex-direction: column;
+   
+    }
+    .mockDataContainer .card img{
+        margin: 10px 0px;
+    }
+    .mockDataContainer .card .eventing{
+        margin: 10px 0px;
+    }
+}

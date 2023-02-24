@@ -1,0 +1,47 @@
+.navBar {
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navBar section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navBar section div{
+    padding: 10px;
+}
+
+.navBar section div a{
+    padding: 10px;
+    background-color: #fff;
+    color: #38ad38;
+    text-decoration: none;
+}
+
+.navBar section div a:hover,.navBar section div a:active{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-decoration: underline;
+    border-radius: 5px
+}
+.mnue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navBar section div svg{
+    color: #38ad38;
+    margin: 0px 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.navBar section div svg:hover,.navBar section div svg:active{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px
+}
+
+.d-none{
+    display: none;
+}
