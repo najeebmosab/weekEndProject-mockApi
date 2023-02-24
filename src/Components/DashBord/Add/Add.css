@@ -1,0 +1,41 @@
+.addProductFormController{
+    width: 50%;
+    height: fit-content;
+    margin: 20px auto;
+    background-color: #fff;
+    color: #213547;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.addProductFormController h2{
+    border-bottom: solid 2px #213547;
+    margin: 10px auto;
+}
+.addProductFormController form{
+    padding: 10px;
+}
+.addProductFormController form div input{
+padding: 10px;
+}
+.addProductFormController form div label{
+    display: block;
+    padding: 10px 0px;
+}
+
+.addProductFormController form div button{
+    padding: 10px;
+    color: #fff;
+    background-color: #28a745;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.addProductFormController form div button:hover {
+    box-shadow: #28a745 0px 0px 3px 1px;
+}

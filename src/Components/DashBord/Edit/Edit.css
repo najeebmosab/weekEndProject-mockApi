@@ -1,6 +1,6 @@
 .updateFormContiner{
     width: 50%;
-    height: 100vh;
+    height: fit-content;
     margin: 20px auto;
     display: flex;
     justify-content: center;
