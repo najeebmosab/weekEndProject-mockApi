@@ -89,13 +89,16 @@ function Dashboard() {
             setLoader(true);
         }, 3000)
     }, []);
-
+    function ToAddPage() {
+        navigater(`/add`);
+        
+    }
     return (
         <>
             <Spiner none={loader}></Spiner>
             <div className={`mockDataContainer ${loader ? "" : "d-none"}`}>
                 <div className="addProduct">
-                    <button>Add Product</button>
+                    <button onClick={ToAddPage}>Add Product</button>
                 </div>
                 <div className="mockData">
                     {showData()}

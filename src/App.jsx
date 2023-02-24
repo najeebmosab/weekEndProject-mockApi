@@ -8,6 +8,7 @@ import { Product } from './Components/Products/Product';
 import { Detalid } from './Components/Detalid/Detalid';
 import {Dashboard} from "./Components/DashBord/Dashboard";
 import {Edit} from "./Components/DashBord/Edit/Edit";
+import {Add} from "./Components/DashBord/Add/add";
 Edit
 function App() {
   const router = createBrowserRouter([
@@ -22,7 +23,7 @@ function App() {
         { path: "/Detalid/:id", element: <Detalid></Detalid> },
         { path: "/dashboard", element: <Dashboard></Dashboard> },
         {path:"/update/:id",element:<Edit></Edit>},
-        {path:"/add",element:<Edit></Edit>}
+        {path:"/add",element:<Add></Add>}
       ]
     },
     {
